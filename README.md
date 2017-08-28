@@ -43,6 +43,9 @@ To save or update the right side of the comparison use the second one.
 
 ```
 NOTE: You MUST use the same Id for both sides and call both endpoints before trying to get the differences.
+
+HINT: If you use swagger, you need to use the content-type: "application/x-www-form-urlencoded" and start your base64String with a '='.
+
 ```
 
 To get the differences between both sides you have to call the third one.
